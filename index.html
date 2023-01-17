@@ -5,28 +5,75 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio de Jaine</title>
+    <style>
+    h1{
+        font-family: monospace;
+        font-size: 65px;
+        color: black;
+        background-color: white;
+        text-align: center;
+    }
+    ul {
+        color: white;
+        font-size: 25;
+    }
+    body{
+        background-color: black;
+        text-align: center;
+        line-height: 1.5;
+    }
+    p {
+        color:white;
+    }
+    #main-picture{
+        border-radius: 90%;
+    }
+    #contato, #sobremim, #habilidade{
+        font-size: 23px;
+    }
+
+    .botao{
+        font-size: 30px;
+        text-decoration: underline;
+        text-decoration: none;
+        line-height: .8;
+    }
+    .titulo{
+        font-size: 30px;
+        color: black;
+        background-color: white;
+    }
+    
+    </style>
+
+
+
 </head>
+
+
+
 <body>
-    <h1>Jaine Nayara de Araújo de Oliveira</h1>
-    <img src= "jaine.png" width="250" alt="Jaine Oliveira">
-    <p>Descrição da imagem: foto frontal, sorrindo, com fundo de arco-íris</p>
-    <h3><a href = "#sobremim">Sobre mim</a></h3>
-    <h3><a href = "#habilidade">Habilidades e competências</a></h3>
-    <h3><a href = "#contato" >Contatos</a></h3>
+    <!-- <h1>JAINE NAYARA DE ARAÚJO DE OLIVEIRA</h1> -->
+    <h1 id = "inicio"> JAINE OLIVEIRA</h1>
+    <img id = "main-picture" src= "jaine.png" width="320" alt="Jaine Oliveira">
+    <!-- <p>Descrição da imagem: foto frontal, sorrindo, com fundo de arco-íris</p> -->
+    <h3 class="botao"><a href = "#sobremim">Sobre mim</a></h3>
+    <h3 class="botao"><a href = "#habilidade">Habilidades e competências</a></h3>
+    <h3 class="botao"><a href = "#contato" >Contatos</a></h3>
     <br><br><br><br><br><br><hr>
-    <h3>Sobre mim:</h3>
-    <p id = "sobremim">Nascida e criada em Pindamonhangaba, interior de São Paulo, fui cursar Engenharia Civil na Universidade Federal de Ouro Preto em 2019. Foi na faculdade que tive meu primeio contato com a Programação. A disciplina me brilhava os olhos, tanto que fui monitora e tutora nos períodos seguintes. <br> Já encaminhando para o final do curso, percebi que não era mais uma área que eu me identificava e me aventurei em recomeçar do zero na progamação. Conheci a Trybe e o Modelo de Sucesso Compartilhado e hoje, aos 26 anos, estou novamente com o brilho nos olhos.  </p>
+    <h3 class ="titulo" id ="sobremim">Sobre mim:</h3>
+    <p > Nascida e criada em Pindamonhangaba, interior de São Paulo, fui cursar Engenharia Civil na Universidade Federal de Ouro Preto em 2019. Foi na faculdade que tive meu primeio contato com a Programação. A disciplina me brilhava os olhos, tanto que fui monitora e tutora nos períodos seguintes. <br> Já encaminhando para o final do curso, percebi que não era mais uma área que eu me identificava e me aventurei em recomeçar do zero na progamação. Foi então que conheci a <strong> Trybe </strong> e o <i>Modelo de Sucesso Compartilhado</i> e hoje, aos 26 anos, estou novamente com o brilho nos olhos me desenvolvendo no que sempre gostei.  </p>
     <hr>
-    <h3 id="habilidade">Habilidades e competências:</h3>
-    <ul>
+    <h3 class ="titulo" id="habilidade">Habilidades e competências:</h3>
+    <ul >
         <li>Organização</li>
         <li>Trabalho em equipe</li>
         <li>Comunicação assertiva</li>
         <li>Proatividade</li>
     </ul>
     <hr>
-    <h3> Contatos:</h3>
-    <p id="contato" >
+    <h3 class ="titulo" id="contato"> Contatos:</h3>
+    <p  >
         <img src="gmail.png" width="20">
         <strong> E-mail: </strong>jaine.nayara.23@gmail.com <br>
         <img src="link.png" width="20">
@@ -35,7 +82,8 @@
         <strong>GitHub: </strong> <a href = https://github.com/jaine-nayara target="_blank">/jaine-nayara</a>
         
     </p>
-
+    <hr>
+    <p> <a href = "#inicio" >Voltar para cima </a></p>
 
 
 
